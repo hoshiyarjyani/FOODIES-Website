@@ -31,7 +31,7 @@ function counter(id, start, end, duration){
         }
     }, step) 
 }
-counter("count1",0,1235, 2000);
+counter("count1",0,2735, 2000);
 counter("count2",110,5235, 2500);
 counter("count3",0,1495, 7000);
 counter("count4",0,5237, 3000);
