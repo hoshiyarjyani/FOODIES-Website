@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active, :hover, :focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+a,
+a:hover{
+    color: var(--primary-color) !important;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+/*====variable define ===== */
+:root {
+    --primary-color: #A82C48;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-grey: #999;
+    --black-color: #000;
+    --primary-font: 'Roboto', sans-serif;
+    --secondry-font: 'Quicksand', sans-serif; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+/* Custom scrollbar */
+
+
+
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background: var(--white-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
