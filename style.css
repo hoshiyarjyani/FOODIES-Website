@@ -222,7 +222,7 @@ margin: auto;
     left: 0;
     width: 100%;
     background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.9);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
     transition:all .15s ease-in-out 0s;
 }
 
@@ -244,5 +244,5 @@ margin: auto;
 .counter-section p{
     color: var(--white-color);
     text-transform:uppercase;
-     
+
 }
